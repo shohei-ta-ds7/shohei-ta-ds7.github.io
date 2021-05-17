@@ -1,0 +1,90 @@
+/* 表示領域が800px以上の場合に適用するスタイル */
+body
+{
+  background-color: #F8F8F8;
+  color: #43474F;
+  padding: 0;
+  margin: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+@media (min-width: 800px) {
+  body
+  {
+    font-size: 18px;
+  }
+  img.Work
+  {
+    width: 200px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 799px) {
+  body
+  {
+    font-size: 32px;
+  }
+  img.Work
+  {
+    width: 100px;
+    padding-left: 10px;
+  }
+}
+
+a
+{
+  text-decoration: none;
+}
+
+div.Header
+{
+  height: 60px;
+  text-align: center;
+  background-color: #3D445A;
+}
+
+div.Body
+{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+fieldset.Body
+{
+  border-width: 2px;
+  border-style: solid;
+  padding: 0;
+  margin: 0;
+  border-color: #3D445A;
+}
+
+span.Body
+{
+  border-bottom: solid 2px #3D445A;
+}
+
+h2.Body
+{
+  padding: 5px;
+}
+
+h3.Body
+{
+  padding: 5px;
+}
+
+p.Body
+{
+  padding: 5px;
+  line-height: 150%;
+}
+
+ul.None
+{
+  list-style-type: none;
+}
+
+li
+{
+  margin-bottom: 10px;
+}
